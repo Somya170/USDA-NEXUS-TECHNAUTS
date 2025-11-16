@@ -28,11 +28,17 @@ This repo implements the USDA Nexus agentic system:
 # 2. Directory Strucutre
 USDA-NEXUS-AGENTIC/
 │
+
 ├── README.md
+
 │
+
 ├── backend_full/
+
 │   ├── package.json
+
 │   ├── package-lock.json
+
 │   ├── .env
 │   ├── .env.example
 │   │
