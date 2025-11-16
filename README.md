@@ -27,6 +27,7 @@ This repo implements the USDA Nexus agentic system:
 
 # 2. Directory Strucutre
 USDA-NEXUS-AGENTIC/
+
 │
 
 ├── README.md
@@ -197,13 +198,9 @@ USDA-NEXUS-AGENTIC/
 └── usda-ai-nexus-main/
 
     ├── index.html
-    
     ├── package.json
-    
     ├── package-lock.json
-    
     ├── vite.config.js
-    
     │
     ├── public/
     │   └── favicon.ico
