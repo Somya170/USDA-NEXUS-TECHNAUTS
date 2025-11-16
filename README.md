@@ -1,5 +1,14 @@
 # USDA NEXUS
 
+USDA Nexus is a centralized MERN-stack platform that unifies all USDA AI initiatives into one searchable inventory. Its AI-powered Connector Agent detects redundant efforts in real time as users submit new use cases, while the Guardian Agent analyzes submissions for risks, KPIs, and ethical compliance. The system delivers leadership-ready dashboards, analytics, and audit logs for stronger governance and data-driven decision-making.
+
+# 👥 Team — TechNauts
+We proudly present Team TechNauts, the minds behind this project:
+  Somya Jaiswal — Full-Stack Lead
+  Jiya Darvai — AI & Machine Learning Specialist
+  Harshit Kushwah — Frontend Developer & Prototyping
+  Rohit Manna — Frontend Developer & Prototyping
+
 # Table of contents
   1.	Project overview
   2.	Directory structure (final)
