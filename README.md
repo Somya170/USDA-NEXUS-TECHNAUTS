@@ -4,9 +4,13 @@ USDA Nexus is a centralized MERN-stack platform that unifies all USDA AI initiat
 
 # 👥 Team — TechNauts
 We proudly present Team TechNauts, the minds behind this project:
+
   Somya Jaiswal — Full-Stack Lead
+  
   Jiya Darvai — AI & Machine Learning Specialist
+  
   Harshit Kushwah — Frontend Developer & Prototyping
+  
   Rohit Manna — Frontend Developer & Prototyping
 
 # Table of contents
