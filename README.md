@@ -40,87 +40,170 @@ USDA-NEXUS-AGENTIC/
 │   ├── package-lock.json
 
 │   ├── .env
+
 │   ├── .env.example
+
 │   │
+
 │   ├── src/
+
 │   │   ├── server.js
+
 │   │
+
 │   │   ├── config/
+
 │   │   │   ├── db.js
+
 │   │   │   ├── qdrant.js
+
 │   │   │   ├── redis.js
+
 │   │   │   └── openai.js
 │   │
+
+
 │   │   ├── controllers/
+
 │   │   │   ├── usecase.controller.js
+
 │   │   │   ├── connector.controller.js
+
 │   │   │   └── guardian.controller.js
+
+
 │   │
 │   │   ├── routes/
+
 │   │   │   ├── index.js
+
 │   │   │   ├── usecase.routes.js
+
 │   │   │   ├── connector.routes.js
+
 │   │   │   └── guardian.routes.js
+
+
 │   │
 │   │   ├── models/
+
 │   │   │   ├── UseCase.js
+
 │   │   │   ├── AuditLog.js
+
 │   │   │   └── EmbeddingCache.js
+
+
 │   │
 │   │   ├── agents/
+
 │   │   │   ├── connector/
+
 │   │   │   │   ├── connector.service.js
+
 │   │   │   │   ├── connector.worker.js
+
 │   │   │   │   └── connector.utils.js
+
+
 │   │   │   │
 │   │   │   ├── guardian/
+
 │   │   │   │   ├── guardian.worker.js
+
 │   │   │   │   ├── guardian.prompt.js
+
 │   │   │   │   └── guardian.utils.js
+
+
 │   │   │   │
 │   │   │   └── utils/
+
 │   │   │       ├── llmClient.js
+
 │   │   │       ├── vectorDB.js
+
 │   │   │       ├── embeddingClient.js
+
 │   │   │       ├── schemaValidator.js
+
 │   │   │       └── logger.js
+
+
 │   │
 │   │   ├── jobs/
+
 │   │   │   ├── queue.js
+
 │   │   │   ├── guardianJob.js
+
 │   │   │   ├── connectorJob.js
+
 │   │   │   └── processors/
+
 │   │   │       ├── guardian.processor.js
+
 │   │   │       └── connector.processor.js
+
+
 │   │
 │   │   ├── middlewares/
+
 │   │   │   ├── errorHandler.js
+
 │   │   │   ├── validateRequest.js
+
 │   │   │   └── requestLogger.js
+
+
 │   │
 │   │   ├── utils/
+
 │   │   │   ├── tokenHelper.js
+
 │   │   │   ├── response.js
+
 │   │   │   ├── constants.js
+
 │   │   │   └── rateLimiter.js
+
+
 │   │
 │   │   ├── logs/
+
 │   │   │   ├── guardian.log
+
 │   │   │   ├── connector.log
+
 │   │   │   └── system.log
+
+
 │   │
 │   │   └── tests/
+
 │   │       ├── usecase.test.js
+
 │   │       ├── connector.test.js
+
 │   │       ├── guardian.test.js
+
 │   │       └── utils.test.js
+
+
 │
+
 │
+
 └── usda-ai-nexus-main/
+
     ├── index.html
+    
     ├── package.json
+    
     ├── package-lock.json
+    
     ├── vite.config.js
+    
     │
     ├── public/
     │   └── favicon.ico
