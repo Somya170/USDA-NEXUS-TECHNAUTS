@@ -1,0 +1,23 @@
+{
+  "name": "usda-nexus-backend",
+  "version": "1.0.0",
+  "description": "Agentic backend for USDA Nexus (Connector + Guardian agents)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "openai": "^4.7.0",
+    "@qdrant/js-client-rest": "^1.1.0",
+    "bullmq": "^3.21.0",
+    "ioredis": "^5.3.2",
+    "joi": "^17.9.2",
+    "axios": "^1.6.5"
+  }
+}
